@@ -1,0 +1,7 @@
+*.gz
+*.hdf5
+/fit-or-not-ai/.ipynb_checkpoints/
+/fit-or-not-ai/food-101/
+/fit-or-not-webapp/node_modules/
+/venv/
+.idea
