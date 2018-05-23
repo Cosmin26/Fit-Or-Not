@@ -5,3 +5,4 @@
 /fit-or-not-webapp/node_modules/
 /venv/
 .idea
+/fit-or-not-webapp/dist/

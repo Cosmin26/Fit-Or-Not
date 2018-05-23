@@ -74,7 +74,7 @@ class App extends Component {
     loadModel = () => {
         console.log('Loading Model');
         const model = new KerasJS.Model({
-            filepath: "./src/model4.01-2.23.bin",
+            filepath: "./model4.01-2.23.bin",
             filesystem: true,
             gpu: this.state.hasWebgl,
             layerCallPauses: true
@@ -237,7 +237,7 @@ class App extends Component {
         } = this.state;
         return (
             <div className="App">
-                <h1>Food Classification Demo with Keras.js!</h1>
+                <h1>Food Classification!</h1>
                 {!modelLoaded ?
                     <p className='intro'>
                         To get started, click the Load Model button to download the model that
